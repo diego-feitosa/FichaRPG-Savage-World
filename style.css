@@ -1,0 +1,57 @@
+#atributos
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-evenly;
+    gap: 0.5rem;
+}
+
+#atributos > .atributo
+{
+    background-color: cornsilk;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#atributos > .atributo > label
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#atributos > .atributo > .jogadas
+{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+#atributos > .atributo > .jogadas > .dados
+{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+#atributos > .atributo > .jogadas > .dados > .dado
+{
+    background-color: aliceblue;
+}
+
+#atributos > .atributo > .jogadas > .dados > .dado:hover
+{
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
+}
+
+#atributos > .atributo > .jogadas > .dados > .dado.comprado
+{
+    background-color: yellowgreen;
+}
